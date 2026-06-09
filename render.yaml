@@ -1,6 +1,0 @@
-services:
-  - type: web
-    name: neuralshield-server
-    env: python
-    buildCommand: pip install -r requirements.txt
-    startCommand: python server.py
